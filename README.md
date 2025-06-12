@@ -30,3 +30,28 @@ A responsive and dynamic weather app that displays real-time weather data for an
 
 ## 📁 Project Structure
 
+amour-weather/
+│
+├── index.html
+├── style.css
+├── scripts/
+│ ├── app.js
+│ └── forecast.js
+├── images/
+│ ├── day.svg
+│ └── night.svg
+├── icons/
+│ └── [weather icons].svg
+└── README.md
+
+---
+
+## 🔑 API Key Setup
+
+1. Go to [AccuWeather Developer Portal](https://developer.accuweather.com/)  
+2. Create an account and generate an API key  
+3. Replace your API key in `forecast.js`:
+
+```javascript
+const key = "YOUR_API_KEY_HERE";
+
