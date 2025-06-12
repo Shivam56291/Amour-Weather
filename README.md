@@ -6,7 +6,7 @@ A responsive and dynamic weather app that displays real-time weather data for an
 
 ## 🚀 Live Demo
 
-👉 [View Live App](#) *(replace with your GitHub Pages or Netlify link)*
+👉 [View Live App](https://shivam56291.github.io/Amour-Weather/)
 
 ---
 
