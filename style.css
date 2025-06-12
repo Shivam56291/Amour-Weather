@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right top, #a18cd1, #fbc2eb);
+  background-size: cover;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+  transition: background 0.5s ease;
+
+
+  /*  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  /*  */
+  
+}
+
+.container {
+  max-width: 400px;
+  padding-bottom: 1rem;
+}
+
+.icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+
+.card {
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.details h5 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+input[type="text"] {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  background: rgba(255, 255, 255, 0.9);
+  transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(100, 100, 255, 0.3);
+}
+
+
+.form-wrapper {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  max-width: 400px;
+  margin: 50px auto;
+}
