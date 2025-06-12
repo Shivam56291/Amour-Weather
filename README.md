@@ -10,14 +10,6 @@ A responsive and dynamic weather app that displays real-time weather data for an
 
 ---
 
-## 🖼️ Screenshots
-
-| Desktop View | Mobile View |
-|--------------|-------------|
-| ![Desktop](screenshots/desktop.png) | ![Mobile](screenshots/mobile.png) |
-
----
-
 ## ✨ Features
 
 - 🔍 Search for any city worldwide  
